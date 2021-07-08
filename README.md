@@ -1,7 +1,7 @@
 # プロフィール
 - 名前： 栗田 学(Manabu Kurita)
 - 生年月日： 1992年9月26日(28歳)
-- 連絡先: kurita.snooteckアットgmail.com
+- 連絡先: kurita@snootech.net
 - 在住: 東京都(23区内)
 - 出身: 神奈川県横浜市
 - 職種: Freelance Web Developer Engineer
