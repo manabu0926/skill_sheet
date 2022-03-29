@@ -1,21 +1,21 @@
 # プロフィール
 - 名前: 栗田 学(Manabu Kurita)
-- 生年月日: 1992年9月26日(28歳)
+- 生年月日: 1992年9月26日
 - 連絡先: kuritaアットsnootech.net
 - 在住: 東京都(23区内)
 - 出身: 神奈川県横浜市
-- 職種: Freelance Web Developer Engineer
+- 職種: Web Developer Engineer
 - 所属: 合同会社SNOOTECH 代表取締役
 
 ---
 # 保有スキル(業務経験)
 ### **業務経験**
-- **Ruby(3年)**
+- **Ruby(4年)**
     - Ruby on Rails
     - Rspec
 - **Java(2年)**
     - Spring
-- **Typescript(1年)**
+- **Typescript(2年)**
     - React
 - **Javascript(1年半)**
     - Jquery
