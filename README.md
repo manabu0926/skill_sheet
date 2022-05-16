@@ -36,7 +36,8 @@
     - FireStore
     - Functions
     - Storage
-
+- リリース済みアプリ
+    - [サポコン 【ギター作曲支援アプリ】](https://apps.apple.com/jp/app/%E3%82%B5%E3%83%9D%E3%82%B3%E3%83%B3/id1617812361)
 ---
 # 自己PR
 **得意分野**
