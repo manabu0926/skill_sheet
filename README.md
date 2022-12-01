@@ -10,12 +10,12 @@
 ---
 # 保有スキル(業務経験)
 ### **業務経験**
-- **Ruby(4年)**
+- **Ruby(5年)**
     - Ruby on Rails
     - Rspec
 - **Java(2年)**
     - Spring
-- **Typescript(2年)**
+- **Typescript(3年)**
     - React
 - **Javascript(1年半)**
     - Jquery
