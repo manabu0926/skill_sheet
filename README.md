@@ -15,7 +15,7 @@
     - ９ヶ月後、Java→Rubyへのスキルチェンジ
     - 現在までに約Ruby系約7案件、React系5案件,Rust1案件,Flutter1案件コミット実績有り
     - Flutterでの個人開発業務も積極的に行っている
-
+- ZennAccount: https://zenn.dev/manabu
 ---
 # 保有スキル(業務経験)
 ### **業務経験**
