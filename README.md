@@ -29,25 +29,27 @@
 - **Ruby(7年)**
     - Ruby on Rails
     - Rspec
-- **Java(2年)**
-    - Spring
-- **Rust(半年)**
-- **golang(半年)**
-- **python(半年)**
 - **Typescript(6年)**
     - React
     - Next.js
+- **Dart(2年)**
+    - Flutter
+- **Java(2年)**
+    - Spring
+- **CSS(3年)**
+    - SCSS
 - **Javascript(1年半)**
     - Jquery
     - node.js
+- **Rust(半年)**
+- **golang(半年)**
+- **python(半年)**
 - **HTML(3年)**
-- **CSS(3年)**
-    - SCSS
+
 - **Swift(5ヶ月)**
 - **Kotlin(5ヶ月)**
 - **GoogleAppScript(3ヶ月)**
-- **Dart(2年)**
-    - Flutter
+
 ---
 ### **個人開発経験**
 - **Dart**
