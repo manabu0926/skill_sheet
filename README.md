@@ -23,23 +23,23 @@
 
 | 言語 | 経験 | フレームワーク・ツール |
 |:-----|:----:|:----------------------|
-| **Ruby** | 7年 | Rails, RSpec, RBS/Steep |
-| **TypeScript** | 6年 | React, Next.js, Node.js |
+| **Ruby** | 8年 | Rails, RSpec, RBS/Steep |
+| **TypeScript** | 7年 | React, Next.js, Node.js |
 
 ### Secondary（実務2年以上）
 
 | 言語 | 経験 | フレームワーク・ツール |
 |:-----|:----:|:----------------------|
-| **Dart** | 2年 | Flutter |
+| **Dart** | 3年 | Flutter |
 | **Java** | 2年 | Spring |
 
 ### Experience（実務経験あり）
 
 | 言語 | 経験 | 備考 |
 |:-----|:----:|:-----|
+| Python | 1年 | Apache Airflow, ETLパイプライン, スクレイピング |
 | Rust | 6ヶ月 | SeaORM, Tokio（Rails→Rustリプレイス案件） |
 | Golang | 6ヶ月 | SaaS連携API開発 |
-| Python | 6ヶ月 | スクレイピング、データ取得基盤 |
 | Swift / Kotlin | 5ヶ月 | ネイティブアプリ開発支援 |
 
 ### Infrastructure & Tools
@@ -49,6 +49,7 @@ Cloud:     AWS, GCP, Firebase
 CI/CD:     GitHub Actions, CircleCI
 Container: Docker, Kubernetes
 DB:        PostgreSQL, MySQL, Firestore, DynamoDB
+Data:      Apache Airflow, S3 ETL
 Other:     OpenAPI, GraphQL, ElasticSearch, Serverless(Lambda)
 ```
 
@@ -62,11 +63,65 @@ Other:     OpenAPI, GraphQL, ElasticSearch, Serverless(Lambda)
 | **フルスタック対応** | DB設計からAPI、フロント、インフラまで一貫して対応可能 |
 | **DevOps整備** | CI/CD構築、Slackワークフロー自動化、GitHub Project整備など |
 | **AI活用開発** | Cursor, Claude Code, Codex等を活用した開発効率化にも積極的に取り組み中 |
-| **コミュニケーション** | 4年以上のフルリモート経験。テキスト・対面ともに対応可能 |
+| **コミュニケーション** | 4年以上のフルリモート経験。テキスト・対面ともに対応可能、元人材営業マン |
 
 ---
 
 ## Work Experience
+
+### 2024/6 〜 現在｜医療テック企業
+
+**在宅医療・訪問診療プラットフォーム**
+
+| 項目 | 内容 |
+|:-----|:-----|
+| 役割 | バックエンドエンジニア / データエンジニア |
+| 技術 | TypeScript / Bun / Python / Ruby 3.3 / Rails 7.1 / Apache Airflow / PostgreSQL / AWS |
+| 体制 | スクラム |
+
+#### 背景
+
+在宅医療・訪問診療を提供する医療テック企業にて、診療報酬算定の自動化システム「レセプトAIエージェント」の開発をリードしつつ、基幹システムやデータパイプラインの機能開発・保守にも従事。
+
+#### 担当した開発内容
+
+**1. レセプトAIエージェント（算定エンジン）の設計・実装**
+
+- 診療報酬の自動算定可否判定エンジンをTypeScript/Bunでフルスクラッチ開発
+- 時間範囲判定（`in_time_range`）、ネスト条件の再帰評価、過去算定歴参照など複雑なロジックを実装
+- 外来管理加算など複合条件の評価機能（ComplexFuncEvaluator）を統合
+- レセプトコメントの自動生成機能（全角変換、code/name加工ロジック）
+- TDDを徹底し、Layer 1〜7の段階的なテストケースで品質を担保
+
+**2. 電子カルテ連携データパイプライン構築**
+
+- Apache Airflowを用いたETLパイプラインをPythonで実装
+- 処方・薬剤・傷病データをS3/PostgreSQLに同期
+- 月次統計同期機能：診療コード別の算定集計、累計stats更新
+- source_uriによる完全な追跡可能性を確保
+
+**3. 緊急時往診・お看取り依頼システム**
+
+- 医療従事者向けの専用フォームシステムをRuby on RailsでBE/FE一貫開発
+- 緊急時の対応品質向上と依頼業務の標準化を実現
+
+**4. AI駆動開発環境の整備**
+
+- Cursor Rules、QA依頼自動化、AGENTS.mdによるエージェント規約を策定
+- チーム全体のAI活用開発効率を向上
+
+**5. 技術記事の投稿
+- 企業管理のブログにも投稿
+  - https://zenn.dev/p/fastdoctor
+
+#### 意識したこと
+
+- **TDDの徹底**: 算定ロジックは複雑なため、Red→Green→Refactorサイクルを厳守し、Layer単位のテストで品質を担保
+- **医療ドメイン知識の習得**: 診療報酬点数表、レセプトの仕組みを深く理解し、エンジニアリングに反映
+- **データ整合性**: 複数クリニックのデータを扱うため、source_uriによる完全な追跡可能性を確保
+- **AI活用の推進**: 自身の開発効率化だけでなく、チーム全体に横展開
+
+---
 
 ### 2024/6 〜 現在｜求人プラットフォーム開発
 
@@ -116,7 +171,8 @@ Other:     OpenAPI, GraphQL, ElasticSearch, Serverless(Lambda)
 
 **5. エンジニア採用に関わる業務**
 
-- 採用広報、技術ブログの立ち上げ（https://zenn.dev/p/ageless）
+- 採用広報、技術ブログの立ち上げ
+  - https://zenn.dev/p/ageless
 - 採用広報記事の投稿
 - カジュアル面談の対応
 - スカウト内容に関する意見提案等
