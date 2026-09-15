@@ -23,13 +23,15 @@
 
 | 言語 | 経験 | フレームワーク・ツール |
 |:-----|:----:|:----------------------|
+| **TypeScript** | 8年 | React, Next.js, Node.js, Hono, NestJS |
 | **Ruby** | 8年 | Rails, RSpec, RBS/Steep |
-| **TypeScript** | 7年 | React, Next.js, Node.js |
+
 
 ### Secondary（実務2年以上）
 
 | 言語 | 経験 | フレームワーク・ツール |
 |:-----|:----:|:----------------------|
+| **Python** | 2年 | Apache Airflow, ETLパイプライン, スクレイピング |
 | **Dart** | 3年 | Flutter |
 | **Java** | 2年 | Spring |
 
@@ -37,7 +39,6 @@
 
 | 言語 | 経験 | 備考 |
 |:-----|:----:|:-----|
-| Python | 1年 | Apache Airflow, ETLパイプライン, スクレイピング |
 | Rust | 6ヶ月 | SeaORM, Tokio（Rails→Rustリプレイス案件） |
 | Golang | 6ヶ月 | SaaS連携API開発 |
 | Swift / Kotlin | 5ヶ月 | ネイティブアプリ開発支援 |
@@ -61,6 +62,7 @@ Other:     OpenAPI, GraphQL, ElasticSearch, Serverless(Lambda)
 |:-----|:-----|
 | **スピード開発** | プロトタイプファーストで認識ズレを最小化。早い段階で形にして確認 |
 | **フルスタック対応** | DB設計からAPI、フロント、インフラまで一貫して対応可能 |
+| **開発外も貢献** | 採用面談、技術記事執筆、AI関連の勉強会開催なども行う |
 | **DevOps整備** | CI/CD構築、Slackワークフロー自動化、GitHub Project整備など |
 | **AI活用開発** | Cursor, Claude Code, Codex等を活用した開発効率化にも積極的に取り組み中 |
 | **コミュニケーション** | 4年以上のフルリモート経験。テキスト・対面ともに対応可能、元人材営業マン |
