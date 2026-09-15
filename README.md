@@ -69,7 +69,7 @@ Other:     OpenAPI, GraphQL, ElasticSearch, Serverless(Lambda)
 
 ## Work Experience
 
-### 2024/6 〜 現在｜医療テック企業
+### 2025/6 〜 現在｜医療テック企業
 
 **在宅医療・訪問診療プラットフォーム**
 
